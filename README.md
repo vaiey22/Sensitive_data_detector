@@ -16,8 +16,10 @@ Sensitive Data Detector 是一款用于文件泄漏防范和数据安全检测�
 首先，克隆此仓库到本地：
 ```bash
 git clone https://github.com/yourusername/sensitive-data-detector.git
-安装依赖
+
 进入项目目录并安装所需的依赖：
+看requirements.txt --- 一般来说下载python都是会自带这些库的
+如果没有的话麻烦 --- pip install <库>
 
 使用方法
 项目支持两种工作模式：学习模式 (learn) 和 检测模式 (detect)。
@@ -30,15 +32,19 @@ python sensitive_data_detector.py learn <敏感文件目录>
 
 bash
 python sensitive_data_detector.py detect <文件目录>
+
 参数说明
 <模式>：指定工作模式，learn 用于学习模式，detect 用于检测模式
 <目录>：指定要处理的文件目录路径。学习模式下建议使用包含敏感数据的文件夹，检测模式下可以是任意文件夹
+
 输出结果
 检测结果会保存在同目录下的 文件目录_results.csv 文件中，包含每个文件的名称和其识别类型（敏感或常规）
 学习模式下，规则会保存在 learned_rules.json 文件中，包含学习到的特征和阈值
+
 配置与优化
 文件缓存：为了提高效率，模块会缓存文件检测结果。你可以修改缓存策略来优化性能
 多线程：项目默认使用多线程来处理文件，用户可以通过 max_workers 参数调整线程池的大小
+
 常见问题
 Q: 如何调整敏感数据的识别阈值？
 A: 阈值可以通过 current_threshold 参数进行调整。学习模式会动态更新此阈值。你也可以手动修改 learned_rules.json 文件中的 threshold 值
