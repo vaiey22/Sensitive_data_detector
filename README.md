@@ -58,6 +58,9 @@ A: 推荐通过持续优化学习样本（特别是误判样本）来提高模�
 
 ！！！！如何在离线环境中运行：
 安装Python：确保目标环境中已经安装了Python（推荐3.6及以上版本）。如果没有安装，可以下载Python安装包并在离线环境中安装。
+https://www.python.org/downloads/release/python-378/
+![image](https://github.com/user-attachments/assets/00fbacef-0af0-4e46-a5d1-4610d6aebc31)
+
 执行代码：因为没有额外的依赖，可以直接运行脚本：
 
 bash
