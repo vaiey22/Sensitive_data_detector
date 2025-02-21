@@ -1,4 +1,5 @@
 # Sensitive Data Detector
+![image](https://github.com/user-attachments/assets/de65f157-d1a8-49c2-83ba-2567caecb04b)
 
 ## 项目简介
 Sensitive Data Detector 是一款用于文件泄漏防范和数据安全检测的敏感数据识别模块。该模块能够分析各种文件，识别其中的敏感信息（如身份证号、银行卡号、电话号码、医疗记录等），并生成详细的结果报告。项目支持多种文件格式，能够根据不同文件的内容和特征进行深度分析。
@@ -54,6 +55,17 @@ A: 如果文件类型无法识别，可以检查文件的扩展名和魔数是�
 
 Q: 如何提高模型的准确率？
 A: 推荐通过持续优化学习样本（特别是误判样本）来提高模型的准确性。可以通过学习模式不断优化模型规则
+
+如何在离线环境中运行：
+安装Python：确保目标环境中已经安装了Python（推荐3.6及以上版本）。如果没有安装，可以下载Python安装包并在离线环境中安装。
+执行代码：因为没有额外的依赖，可以直接运行脚本：
+
+bash
+python sensitive_data_detector.py <mode> <directory>
+
+其中，<mode>是learn或detect，<directory>是文件目录路径。
+只需要确保Python已正确安装并配置即可，其他标准库的模块无需额外安装。
+
 
 贡献
 欢迎提交问题报告或贡献代码。您可以通过提交 pull request 或创建 issues 来参与贡献
