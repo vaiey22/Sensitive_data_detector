@@ -10,8 +10,10 @@ Sensitive Data Detector 是一款用于文件泄漏防范和数据安全检测�
 - **动态阈值**：根据文件的熵值和分析内容，自动调整敏感数据识别的阈值，确保高准确率
 - **渐进式学习**：通过误判样本持续优化识别模型，支持定期更新学习规则
 - **结果输出**：检测结果以 CSV 格式输出，方便用户查看和分析
-
-## 安装和使用
+- 
+### python安装
+https://www.python.org/downloads/release/python-378/
+![image](https://github.com/user-attachments/assets/00fbacef-0af0-4e46-a5d1-4610d6aebc31)
 
 ### 克隆仓库
 首先，克隆此仓库到本地：
@@ -58,9 +60,6 @@ A: 推荐通过持续优化学习样本（特别是误判样本）来提高模�
 
 ！！！！如何在离线环境中运行：
 安装Python：确保目标环境中已经安装了Python（推荐3.6及以上版本）。如果没有安装，可以下载Python安装包并在离线环境中安装。
-https://www.python.org/downloads/release/python-378/
-![image](https://github.com/user-attachments/assets/00fbacef-0af0-4e46-a5d1-4610d6aebc31)
-
 执行代码：因为没有额外的依赖，可以直接运行脚本：
 
 bash
