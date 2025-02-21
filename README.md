@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9813204b-50eb-4667-a370-5858186a4049)![image](https://github.com/user-attachments/assets/7737bbd9-0d23-48ae-bba9-9ba6ac6d1d9a)# Sensitive Data Detector
+Sensitive Data Detector
 ![image](https://github.com/user-attachments/assets/de65f157-d1a8-49c2-83ba-2567caecb04b)
 
 ## 项目简介
