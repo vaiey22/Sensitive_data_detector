@@ -16,9 +16,8 @@ https://www.python.org/downloads/release/python-378/
 ![image](https://github.com/user-attachments/assets/00fbacef-0af0-4e46-a5d1-4610d6aebc31)
 
 ### 克隆仓库
-首先，克隆此仓库到本地：
-```bash
-git clone https://github.com/yourusername/sensitive-data-detector.git
+git工具克隆此仓库到本地
+没有git可以跳过，直接下载压缩文件及其相关文件也可以
 
 进入项目目录并安装所需的依赖：
 看requirements.txt --- 一般来说下载python都是会自带这些库的
